@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="signup.css">
+    
+    <!--Internal CSS <style>
+        #signup{
+            color:#e70bd8;
+        }
+    </style> -->
+</head>
+<body>
+    <form id="myform">
+        <!-- <h1 Inline CSS style="color:blue;">Sign Up Form</h1> -->
+        <h1 id="signup">Sign Up Form</h1>
+        <label>Enter Username</label>
+        <input type="text" placeholder="Enter Username" required/>
+
+        <!--Email-->
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" required/>
+
+        <!--number-->
+        <label>Phone number</label>
+        <input type="text" placeholder="Enter number" required/>
+
+        <label>Enter Password</label>
+        <input type="password" placeholder="Enter password" required/>
+
+        <div id="gender">
+            <label>Gender</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+        </div>
+
+        <select>
+            <option selected hidden >Select any one opted our website</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="insta">Instagram</option>
+            <option value="facebook">Facebook</option>
+        </select>
+
+        <div id="check">
+            <input type="checkbox">
+            <p>Here by i declare I have given valid infomation</p>
+        </div>
+
+        <textarea></textarea>
+
+        <button type="submit">Sign up</button>
+        <p>Already have an account?
+            <a href="loginform.html">Login</a>
+        </p>
+    </form>
+</body>
+</html>
